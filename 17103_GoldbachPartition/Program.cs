@@ -67,6 +67,7 @@ namespace _17103_GoldbachPartition
             Int32 t = Int32.Parse(Console.ReadLine());
             Boolean[] isPrime = new Boolean[1000001];
 
+            //에라토스테네스의 체를 이용하여 소수 찾기
             for(Int32 i = 2; i < isPrime.Length; i++)
                 isPrime[i] = true;
 
